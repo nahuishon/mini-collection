@@ -5,9 +5,15 @@ console.log(Airtable);
 
 
 
-var base = new Airtable({ apiKey: "keyOcvpATRSQc6y9M" }).base(
-   "appkFaDUnYFiYcvny" 
-);
+
+const base = require('airtable').base('appFM7dyonhVM0A5U');
+
+var Airtable = require('airtable');
+Airtable.configure({
+    endpointUrl: 'https://api.airtable.com',
+    apiKey: 'YOUR_API_KEY'
+});
+var base = Airtable.base('appFM7dyonhVM0A5U');
 
 
 base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
