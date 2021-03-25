@@ -37,7 +37,7 @@ if (err) {
 
 // call functions to log and show the books 
 consoleLogBooks();
-//showBooks();
+showBooks();
 }
 
 
@@ -46,5 +46,14 @@ function consoleLogBooks() {
     console.log("consoleLogBooks()");
     books.forEach((book) => {
         console.log("Book:", book);
+    });
+}
+
+function showBooks() {
+    console.log("showBooks()");
+    books.forEach((book) => {
+        const h2 = document.createElement("h2");
+        h2.innerText = book.fields.title;
+        document.body.appendChild(h2);
     });
 }
