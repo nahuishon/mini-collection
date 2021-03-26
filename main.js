@@ -1,4 +1,8 @@
-let myText = "hello world"; //strings
+// define our first variable
+//when someone clicks on the red circle, we want the background to turn red
+
+
+// define our first variable
 
 document.getElementById("demo").innerHTML = "My Favorite Korean Movie";
 
@@ -9,11 +13,17 @@ document.getElementById("button").addEventListener("click", function() {
   })
 
   //SECOND IMFORMATION
+  document.getElementById("button").addEventListener("click", function() {
+    document.getElementById("detail").innerHTML = "PARASITE / BONG JOON-HO";
+  })
 
   //LAST IMFORMATION
+  document.getElementById("button").addEventListener("click", function() {
+    document.getElementById("detail").innerHTML = "PARASITE / BONG JOON-HO";
+  })
 
-
-//new image
+  //SECNOND IMAGE START 
+  
   let newch = document.querySelector(".newch");
 
   //the word halfway
@@ -23,7 +33,7 @@ document.getElementById("button").addEventListener("click", function() {
     newch.classList.add("active");
   });
   
-  increaseNewchmage.addEventListener("mouseout",function(){
+  increaseNewchImage.addEventListener("mouseout",function(){
       newch.classList.remove("active");
   });
 
@@ -46,16 +56,14 @@ document.getElementById("button").addEventListener("click", function() {
 
 
   // last image 
+  let last = document.querySelector(".last");
 
-  let  = document.querySelector(".dogs");
-
-  //the word halfway
-  let increaseDogImage = document.querySelector('.bigger-dogs');
+  let increaseLastImage = document.querySelector('.last-poster');
   
-  increaseDogImage.addEventListener("mouseover",function(){
-   dogs.classList.add("active");
+  increaseLastImage.addEventListener("mouseover",function(){
+    last.classList.add("active");
   });
   
-  increaseDogImage.addEventListener("mouseout",function(){
-      dogs.classList.remove("active");
+  increaseLastImage.addEventListener("mouseout",function(){
+      last.classList.remove("active");
   });

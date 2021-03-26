@@ -47,6 +47,7 @@
   
   .newch.active{
     width: 10rem;
+    display:flex;
   }
 
   .two{
