@@ -33,10 +33,13 @@
 
 
   button{
-     color: rgb(255, 255, 255);
-     background-color: rgb(8, 15, 15);
+     color: rgb(3, 3, 3);
+     background-color: rgb(255, 255, 255);
+     margin-left: 120px;
      position: relative;
-     margin-top: 20px;
+     margin-top: 30px;
+     font-size: 30px;
+     font-family: 'Courier New', Courier, monospace;
 
   }
   
