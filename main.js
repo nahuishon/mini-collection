@@ -12,7 +12,7 @@ document.getElementById("button").addEventListener("click", function() {
 
   //LAST IMFORMATION
 
-  
+
 //new image
   let newch = document.querySelector(".newch");
 
@@ -31,15 +31,15 @@ document.getElementById("button").addEventListener("click", function() {
 
   //second image
  
-  let memo = document.querySelector(".memo");
+  let twoim = document.querySelector(".twoim");
 
   //the word halfway
-  let increaseMemoImage = document.querySelector('.second-poster');
+  let increaseTwoimImage = document.querySelector('.second-poster');
   
-  increaseMemoImage.addEventListener("mouseover",function(){
-    memo.classList.add("active");
+  increaseTwoimImage.addEventListener("mouseover",function(){
+    twoim.classList.add("active");
   })
   
-  increaseMemoImage.addEventListener("mouseout",function(){
-      memo.classList.remove("active");
+  increaseTwoimImage.addEventListener("mouseout",function(){
+      twoim.classList.remove("active");
   })

@@ -42,27 +42,37 @@
 
   }
   
-  .memo{
+  .newch{
     position: absolute;
     left: 7%;
     bottom: 10%;
     width: 2rem;
   }
   
-  .memo.active{
+  .newch.active{
     width: 10rem;
   }
 
-  .inside{
+  .twoim{
     position: absolute;
-    left: 7%;
+    left: 50%;
     bottom: 10%;
     width: 2rem;
   }
   
-  .inside.active{
+  .twoim.active{
     width: 10rem;
   }
   
+  .lastim{
+    position: absolute;
+    left: 87%;
+    bottom: 10%;
+    width: 2rem;
+  }
+  .lastim.active{
+    width: 10rem;
+  }
+
 
 
