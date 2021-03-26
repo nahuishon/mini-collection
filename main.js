@@ -21,25 +21,41 @@ document.getElementById("button").addEventListener("click", function() {
   
   increaseNewchImage.addEventListener("mouseover",function(){
     newch.classList.add("active");
-  })
+  });
   
   increaseNewchmage.addEventListener("mouseout",function(){
       newch.classList.remove("active");
-  })
+  });
 
   
 
   //second image
  
-  let twoim = document.querySelector(".twoim");
+  let two = document.querySelector(".two");
 
   //the word halfway
-  let increaseTwoimImage = document.querySelector('.second-poster');
+  let increaseTwoImage = document.querySelector('.second-poster');
   
-  increaseTwoimImage.addEventListener("mouseover",function(){
-    twoim.classList.add("active");
-  })
+  increaseTwoImage.addEventListener("mouseover",function(){
+    two.classList.add("active");
+  });
   
-  increaseTwoimImage.addEventListener("mouseout",function(){
-      twoim.classList.remove("active");
-  })
+  increaseTwoImage.addEventListener("mouseout",function(){
+      two.classList.remove("active");
+  });
+
+
+  // last image 
+
+  let  = document.querySelector(".dogs");
+
+  //the word halfway
+  let increaseDogImage = document.querySelector('.bigger-dogs');
+  
+  increaseDogImage.addEventListener("mouseover",function(){
+   dogs.classList.add("active");
+  });
+  
+  increaseDogImage.addEventListener("mouseout",function(){
+      dogs.classList.remove("active");
+  });
