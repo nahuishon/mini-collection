@@ -1,39 +1,59 @@
 <!-- This is a comment. Feel free to delete or write your own as helpful notes. They won't appear on your website, but they do appear if you inspect the code. -->
 
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mini collection</title>
-    <meta name="description" content="Your description goes here">
-    <meta name="author" content="nahee">
-   
-     <!-- Link to your favicon -->
-    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <!-- Link to your stylesheet -->
-    <link rel="stylesheet" href="./style.css">
+    <title>nahee.mini collection</title>
+
+    <!-- add reset to create consistency between browsers and devices. -->
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+
+    <link rel="stylesheet" type="text/css" href="./main.css">
+
+    <!-- add link to your javascript. be sure it includes "defer" -->
+    <script type="text/javascript" src="./main.js" defer></script>
 </head>
 
 <body>
-   <h1>My Favorite Korean Movie Collection!</h1>
-   <nav id="shelf" class="shelf"></nav>
-   <article id="book-detail" cclass="book-detail hidden">
-       <section class="figure">
-           <img
-           class="cover-image"
-           scr="https://airtable.com/tblNB97ez5X1W3pG4/viwMwd38J2Jaft1Sh?blocks=hide"
-           alt="Book Cover"
-           />
-       </section>
-   </article>
+    <img class="newch" src="./img/change.png">
+    <img class="memo" src="./img/memo.png">
+    <img class="inside" src="./img/inside.png">
 
+     <h1 id ="demo"></h1>
 
+    <div class="container">
 
+         <div class="left">
+             <img class="myImage" src="img/mini1.jpeg" style="height: 640px; width: 440px;">
+             <button id="button">Imformation</button>
+             <p><strong class="new-poster">poster</strong></p>
+             <div id="detail"></div>
+            </div>
 
+         <div class="middle">
+             <img class="myImage2" src="img/mini2.jpeg" alt="murder" style="height: 640px; width: 440px;">
+             <button id="button">Imformation</button>
+             <div id="detail2"></div>
+             <p><strong class="second-poster">poster</strong></p>
+            </div>
+            
+         <div class="right">
+             <img class="myImage3" src="img/mini3.jpeg" alt="food" height= "640px; width: 440px;">
+             <button id="button">Imformation</button>
+             <p><strong class="last-poster">poster</strong></p>
+             <div id="detail3"></div>
+            </div>
+          </div>
+         
+    <div class="background"></div>
 
-   <script src="lib/airtable.browser.js"></script>
-   <script src="main.js"></script>
+           
+            <script src="main.js"></script>
 </body>
 
 </html>
+

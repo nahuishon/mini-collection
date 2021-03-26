@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  body,html {
+    font-family: "Fraunces", sans-serif;
+    background-color: rgb(21, 26, 26);
+    color: aliceblue;
+}
+  .row {
+    display: flex;
+  }
+
+  h1{
+      color:rgb(255, 255, 255);
+      margin-top: 150px;
+      margin-left: 600px;
+      margin-bottom: -160px;
+  }
+
+.container {
+    float: center;
+    width: 33.33%;
+    padding: 105px;
+    display: flex;
+    margin-top: 100px;
+  }
+
+
+  .left detail{
+      color: aliceblue;
+  }
+
+  button{
+     color: rgb(255, 255, 255);
+     background-color: rgb(8, 15, 15);
+     position: relative;
+
+  }
+  
+  .memo{
+    position: absolute;
+    left: 7%;
+    bottom: 10%;
+    width: 2rem;
+  }
+  
+  .memo.active{
+    width: 10rem;
+  }
+
+  .inside{
+    position: absolute;
+    left: 7%;
+    bottom: 10%;
+    width: 2rem;
+  }
+  
+  .inside.active{
+    width: 10rem;
+  }
+  
+
+
